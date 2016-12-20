@@ -1,0 +1,10 @@
+AT+GMR   -- get version
+AT+RST   -- reset 
+AT+CWMODE=1
+AT+CIPMUX=1
+AT+CIPSERVER=1,80
+AT+CIPAP="192.168.1.111"
+
+AT+CWQAP
+AT+CWJAP="samruddhi","d0n0tenter"
+AT+CIPSTA="192.168.1.111"
